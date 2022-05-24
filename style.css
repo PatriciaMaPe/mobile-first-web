@@ -113,3 +113,141 @@ header .header--title-container .header--button {
   vertical-align: middle;
   margin-bottom: 2px;
 }
+
+
+/* Information section */
+.main-exchange-container {
+  width: 100%;
+  min-width: 320px; /* min width for mobile */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 777px;
+  background-color: var(--off-white);
+}
+
+.main-exchange-container .exchange-image {
+  align-self: center;
+  width: 195px;
+  height: 195px;
+  margin-top: 59px;
+   /* good practices for images */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-exchange-container--title{
+  width: 90%;
+  min-width: 288px;
+  max-width: 900;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.main-exchange-container--title h2{
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+}
+
+.main-exchange-container--title p{
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+.main-exchange-container h4 {
+  align-self: flex-start;
+  margin-left: calc(20% + 1rem);
+  margin-top: 48px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+
+  color: var(--bitcoin-orange);
+}
+
+/* Exchange table */
+.main-tables-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-tables-container table{
+  width: 60%;
+  min-width: 235px;
+  max-width: 300px;
+  margin-top: 12px;
+  background-color: var(--white);
+  font-family: 'Inter', 'sans-serif';
+  border-radius: 8px;
+  border-spacing: 0;
+}
+
+.main-tables-container table td{
+  width: 101px;
+  height: 39px;
+  padding: 10px 12px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: -0.02em;
+  color: var(--grey);
+  border: 1px solid var(--off-white)
+}
+
+
+.main-tables-container .arrow-left{
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/icons/mdi-keyboard-arrow-down-left-black.svg);
+}
+
+.main-tables-container .arrow-right {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/icons/mdi-keyboard-arrow-down-rigth-black.svg);
+}
+
+.main-tables-container table span{
+  width: 12px;
+  height: 12px;
+}
+
+.trending-down-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  background-image: url(/assets/icons/trending-down.svg);
+}
+
+.trending-up-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  background-image: url(/assets/icons/trending-up.svg);
+}
+
+.main-exchange-container .information-section--update{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--soft-orange);
+
+  font-family: 'Inter', 'sans-serif';
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+
