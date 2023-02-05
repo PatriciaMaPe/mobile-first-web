@@ -1,0 +1,1 @@
+Website created to practice responsive design.
