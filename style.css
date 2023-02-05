@@ -164,7 +164,7 @@ header .header--title-container p {
 
 .main-exchange-container h4 {
   align-self: flex-start;
-  margin-left: calc(20% + 1rem);
+  margin-left: calc(50% - 115px);
   margin-top: 48px;
   font-weight: 700;
   font-size: 1.8rem;
@@ -241,6 +241,7 @@ header .header--title-container p {
 
 .main-exchange-container .information-section--update{
   width: 50%;
+  max-width: 230px;
   margin: 0 auto;
   margin-top: 16px;
   padding: 8px;
@@ -265,10 +266,11 @@ header .header--title-container p {
 
 /* Section 3: Product detail */
 .main-product-detail {
-  height: 910px;
+  height: auto;
   min-width: 320px;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: var(--warm-black);
+
 
 }
 
